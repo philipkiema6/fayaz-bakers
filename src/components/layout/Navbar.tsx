@@ -8,6 +8,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import fayazLogo from "@/assets/fayaz-logo.png";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -29,17 +30,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-display text-lg md:text-xl font-bold">
-                FB
-              </span>
-            </div>
-            <div className="hidden sm:block">
-              <h1 className="font-display text-lg md:text-xl font-semibold text-foreground">
-                Fayaz Bakers
-              </h1>
-              <p className="text-xs text-muted-foreground -mt-1">Limited</p>
-            </div>
+            <img 
+              src={fayazLogo} 
+              alt="Fayaz Bakers Limited" 
+              className="h-12 md:h-16 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
