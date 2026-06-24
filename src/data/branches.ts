@@ -27,6 +27,7 @@ export const regions: Region[] = [
   { id: "kisauni", name: "Kisauni", branchId: "bamburi" },
   { id: "mvita", name: "Mvita", branchId: "lebanon" },
   { id: "changamwe", name: "Changamwe", branchId: "lebanon" },
+  { id: "philip", name: "Philip Shop", branchId: "philip" },
 ];
 
 export const branches: Branch[] = [
@@ -49,6 +50,16 @@ export const branches: Branch[] = [
     whatsapp: "+254722987654",
     hours: "Mon - Sat: 6:30 AM - 8:30 PM\nSunday: 7:00 AM - 7:00 PM",
     image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800",
+  },
+  {
+    id: "philip",
+    name: "Fayaz Bakers - Philip Shop",
+    address: "Philip Street, Mombasa",
+    phone: ["+254 742 098 869"],
+    email: "philip@fayazbakers.co.ke",
+    whatsapp: "+254742098869",
+    hours: "Mon - Sat: 6:30 AM - 8:30 PM\nSunday: 7:00 AM - 7:00 PM",
+    image: "https://6a3b95a50a4149112241767e.imgix.net/franki-chamaki-ivfp_yxZuYQ-unsplash.jpg",
   },
 ];
 
